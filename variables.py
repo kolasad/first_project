@@ -112,3 +112,36 @@ users = [
 ]
 
 
+#  wybrac pierwszego uzytkownika z listy users
+#  wybrac pierwsze imie drugiego uzytkownika
+#  wybrac klucze ostatneigo uzytkownika
+#  dodac nowego uzytkownika
+#  usunac pierwszego uzytkownika
+#  zmienic imie i nazwisko ostatniego uzytkownika
+
+print(users[0])
+second_user = users[1]
+print(second_user)
+print(type(second_user))
+second_user_first_name = second_user['first_name']
+print(second_user_first_name)
+
+user_keys = users[2].keys()
+print(user_keys)
+
+new_user = {
+    "last_name": "Nowak",
+    "first_name": "Asia"
+}
+users.append(new_user)
+print(users)
+
+del users[0]
+
+print(users)
+
+print(users[2])
+users[2]['last_name'] = 'Kowalski'
+users[2]['first_name'] = 'Agata'
+
+print(users)
