@@ -1,3 +1,5 @@
+# Lekcja 2
+
 empty = None
 # boolean
 true_example = True
@@ -10,10 +12,13 @@ float_example = 2.34
 # string
 string_example = 'Ala ma kota.'
 
-# collections: list, tuple, dictionary
+# collections: list, tuple, dictionary, set
 list_example = [1, 2, 3, 'Jan']
 tuple_example = (1, 2, 3, 'Jan')  # can't change tuple
 dictionary_example = {1: 'Asia', 'Jan': 2, 'key': 'value'}
+unique_values = {1, 2, 3, 4, 1, 2}
+dictionary_not_set = {}
+print(type(dictionary_not_set))  # <class 'dict'>
 
 print(dictionary_example)
 
@@ -145,3 +150,5 @@ users[2]['last_name'] = 'Kowalski'
 users[2]['first_name'] = 'Agata'
 
 print(users)
+
+
