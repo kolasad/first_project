@@ -1,0 +1,26 @@
+# 1
+# Write a program taking the value of two numbers. Validate if the input if correct (use try except statements).
+
+# 2
+# Write a program which will read the file entered by user and print it's content to console.
+# catch exceptions when file does not exist if so create a new one with the name provided by user
+# additionally check if the file ends with name entered by user ends with .txt (tip use if condition)
+
+# 3
+# Write a program taking input from user and validate if the input is: Hello World!
+# If not raise the custom exception written by you
+
+
+# 1
+# Write a project where you will create a database of houses with their residents (people who live there)
+# the database should contain id, street name, house number, postcode, region
+# and a resident with: id, house id (foreign key), first_name, last_name, phone number (not required), age
+# Write SQL queries to get:
+# - select all residents
+# - select all residents with phone number
+# - average age of residents
+# - average age of children (residents under 18)
+# - count residents
+# - get average residents per house
+# - get average residents per house in region Warszawa
+# - select residents who occurred in more then 2 houses (they live in more then 2 houses)
