@@ -1,0 +1,33 @@
+1. Python
+- wirtualne środowiska: virtualenv, oddzielne środowisko per projekt
+- składnia Pythona: zasady PEP8
+2. GIT
+- klonowanie repozytorium, pierwsze kroki - add, commit, push, log
+3. Typy zmiennych, struktury danych
+4. Instrukcje warunkowe, pętle
+5. Funkcje
+6. Klasy, dziedziczenie, konstruktor, metody klasowe. SOLID, DRY
+text_editor - snake case
+TextEditor - camel case
+7. Generatory, dekoratory
+8. Wyjątki, moduły
+9. SQL, ORM - object related modeling, SQLAlchemy
+10. Projekt indywidualny
+- zadania domowe 90 %
+- tematyka do wyboru samemu, przkłady:
+    * web scrapping (beautifulsoup)
+    * wykorzystanie API (requests) - lista API: https://github.com/public-apis/public-apis
+        np.
+           import requests
+           response = requests.get('https://api.covid19api.com/live/country/PL')
+           data = response.json()
+           print(data)
+    * własny pomysł na małą bazę danych (dwie tablice) + trochę Pythona
+    * wykorzystanie gotowych danych - analiza danych: https://www.kaggle.com/datasets (ewentualnie biblioteka: pandas)
+    * inny własny pomysł po akceptacji
+- poukładany kod, użycie klas, podstawowe testy
+- dokładny opis projektu w ReadMe.md oraz instrukcje techniczne
+- poprawny plik .gitignore
+- całość wrzucona na github
+- dbałość o zrozumiałość wiadomości przy commitach
+- fajnie jakby projekt korzystał z SQL
